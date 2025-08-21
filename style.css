@@ -1,3 +1,14 @@
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
 body {
     margin: 0;
     font-family: 'Courier New', monospace;
@@ -31,6 +42,16 @@ nav a:hover {
 .inicio {
     text-align: center;
     padding: 100px 20px 50px;
+}
+
+.inicio h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.inicio h2 {
+    font-size: 2rem;
+    margin: 15px 0;
 }
 
 .logo {
@@ -80,3 +101,4 @@ button {
 button:hover {
     background-color: #ffb366;
 }
+
