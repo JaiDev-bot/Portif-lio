@@ -1,13 +1,13 @@
 
 
-
+/*Faz a rolagem da página*/
 
 html {
   scroll-behavior: smooth;
 }
 
 
-
+/*formatação geral*/
 
 body {
     margin: 0;
@@ -15,6 +15,8 @@ body {
     background-color: #d47f39;
     color: #000;
 }
+
+/* Cabeçalho fixo no topo */
 
 header {
     background-color: #d47f39;
@@ -26,6 +28,8 @@ header {
     border-bottom: 2px solid #000;
 }
 
+/* Links do menu */
+
 nav a {
     margin: 0 15px;
     text-decoration: none;
@@ -35,10 +39,12 @@ nav a {
     padding: 5px 10px;
 }
 
+/* Efeito hover nos links do menu */
 nav a:hover {
     background-color: #f2d6b3;
 }
 
+/* Seção inicial da página */
 .inicio {
     text-align: center;
     padding: 100px 20px 50px;
@@ -58,6 +64,8 @@ nav a:hover {
     width: 300px;
 }
 
+/* Botão padrão */
+
 .btn {
     display: inline-block;
     background-color: #f2d6b3;
@@ -68,9 +76,13 @@ nav a:hover {
     font-weight: bold;
 }
 
+/* Efeito hover no botão */
+
 .btn:hover {
     background-color: #ffe0b5;
 }
+
+/* Seções de conteúdo (sobre, formação, portfólio, contato) */
 
 .conteudo {
     padding: 80px 20px;
