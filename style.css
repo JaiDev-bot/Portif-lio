@@ -58,3 +58,25 @@ nav a:hover {
     max-width: 800px;
     border-radius: 10px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: inherit;
+}
+
+button {
+    background-color: #d47f39;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffb366;
+}
